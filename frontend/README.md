@@ -1,12 +1,62 @@
-# React + Vite
+# 🩺 Medivac
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Medivac is a **family health management platform** that consolidates all your medical data into a single, easy-to-use dashboard.  
+It provides real-time insights into vitals such as **Blood Pressure, Heart Rate, and more**, helping families stay informed and proactive about their health.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Note: THIS SITE IS UNDER DEVELOPMENT AND SOON WILL BE COMPLETLY OPERATIONAL(ETA:20:09:2025)**
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📊 **Family Dashboard** – Centralized health records for every family member.
+- 💓 **Vitals Tracking** – Blood pressure, heart rate, glucose levels, and more.
+- 🧑‍🤝‍🧑 **Multi-user Access** – Manage multiple family profiles in one account.
+- 🔔 **Smart Alerts** – Notifications for abnormal vitals or missed check-ups.
+- 📅 **Health Timeline** – View trends and history of medical data.
+- 🔒 **Secure by Design** – HIPAA-ready architecture with role-based access.
+
+---
+
+## 🏗️ Tech Stack
+
+**Frontend:**
+- ⚛️ React.js with Tailwind CSS (UI/UX)
+- React Router (navigation)
+- Axios / Fetch (API calls)
+
+**Backend:**
+- 🟢 Node.js + Express (REST API)
+- MongoDB (NoSQL database for storing health records)
+- JWT Authentication (secure login system)
+
+**Integrations:**
+- 📡 IoT Device Sync (BP monitor, smartwatches, glucometers)
+- 🌍 Geolocation API (location-aware services)
+- 📈 Chart.js / Recharts (visualization of vitals)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have installed:
+- Node.js >= 18
+- MongoDB (local or Atlas)
+- Git
+
+### Installation
+
+```bash
+# Clone repository
+git clone https://github.com/your-username/medivac.git
+cd medivac
+
+# Install dependencies
+npm install
+
+# Setup environment variables
+cp .env.example .env
+
+# Run development server
+npm run dev
